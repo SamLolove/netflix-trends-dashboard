@@ -1,0 +1,8 @@
+.header{display:flex;justify-content:space-between;align-items:center;gap:12px;padding:14px;background:radial-gradient(circle at 20% 0%, rgba(229,9,20,0.08), rgba(0,0,0,0.25));border-radius:12px;box-shadow:0 6px 30px rgba(0,0,0,0.45);border:1px solid rgba(255,255,255,0.04);margin-bottom:14px}
+.header h1{margin:0;color:var(--text);font-size:1.05rem;font-weight:700;text-shadow:0 0 8px rgba(229,9,20,0.4)}
+.subtitle{color:var(--muted);font-size:12px;margin-top:4px}
+.controls{display:flex;gap:8px;align-items:center}
+.controls select{padding:8px 10px;border-radius:8px;border:1px solid rgba(255,255,255,0.06);background:#111;color:#fff;font-size:13px}
+.controls select option{background:#111;color:#fff}
+.hamburger{display:none}
+@media(max-width:760px){.controls{display:none}.hamburger{display:flex}}

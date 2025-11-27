@@ -1,0 +1,9 @@
+.sidebar{width:230px;background:rgba(10,10,10,0.85);backdrop-filter:blur(6px);padding:22px;border-right:1px solid rgba(255,255,255,0.05);height:100vh;position:fixed;left:0;top:0;color:var(--text);display:flex;flex-direction:column;box-shadow:8px 0 25px rgba(0,0,0,0.45)}
+.brand{display:flex;gap:12px;align-items:center;margin-bottom:18px}
+.logo{width:40px;height:40px;border-radius:8px;background:var(--accent);display:flex;align-items:center;justify-content:center;font-weight:700;color:#fff}
+.title{font-size:1.05rem;font-weight:700;color:var(--accent)}
+.small{font-size:12px;color:var(--muted)}
+.menu{display:flex;flex-direction:column;gap:8px}
+.item{background:transparent;border:none;text-align:left;padding:12px;font-size:0.95rem;color:var(--muted);cursor:pointer;border-radius:6px}
+.item:hover{background:rgba(255,255,255,0.03);color:var(--text)}
+.active{background:var(--accent);color:#fff}
